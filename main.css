@@ -1,6 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head {
+    display: flex;
 }
 
 .logo {
@@ -53,4 +63,220 @@
 
 .loc_img img {
     margin-top: 30px;
+}
+
+.current {
+    margin-top: 27px;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.mohammad {
+    margin-top: 27px;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.search_food {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+.search_text {
+    font-family: 'Source Sans Pro'sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.but_login {
+    margin-top: -10px;
+    padding: 14px 24px;
+    border: none;
+    background-color: white;
+    font-family: 'Source Sans Pro'sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFB800;
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 150px;
+    cursor: pointer;
+}
+
+
+/*  section main.css styles */
+
+.section {
+    display: flex;
+    background-color: #ffcf0e;
+    height: 661px;
+}
+
+.left {
+    margin-top: 165px;
+    margin-left: 110px;
+}
+
+.left h3 {
+    font-family: 'Source Sans Pro' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 77px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.left p {
+    margin-top: 20px;
+    font-family: 'Source Sans Pro' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+}
+
+.right {
+    margin-top: 140px;
+}
+
+.input_first {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 856px;
+    height: 86px;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.but_deliver {
+    padding: 10px 24px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #F17228;
+    background-color: rgba(241, 114, 40, 0.1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.but_pickup {
+    padding: 10px 24px;
+    font-family: 'Source Sans Pro'sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #757575;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(252, 252, 252);
+}
+
+.input_second {
+    position: relative;
+    padding: 24px;
+    gap: 10px;
+    width: 856px;
+    height: 108px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    border-top: 1px solid rgb(169, 160, 160, 0.2);
+}
+
+.email {
+    padding: 15px 48px;
+    /* background-image: url(./img/red_loc.svg ); */
+    /* background-repeat: no-repeat;  */
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140;
+    width: 585px;
+    height: 49px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    outline: none;
+}
+
+.logimg {
+    position: absolute;
+    top: 38px;
+    left: 35px;
+}
+
+.find_food {
+    padding: 21px 48px;
+    font-family: 'Source Sans Pro' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+}
+
+
+/* article main.css style */
+
+.card-body img {
+    border-radius: 15px;
+}
+
+.card-body h3 {
+    font-family: 'Source Sans Pro'sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+}
+
+.card-body p {
+    font-family: 'Source Sans Pro'sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 100%;
+    color: #F17228;
+    background: rgba(241, 114, 40, 0.2);
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.colcard3 {
+    padding: 0px;
+}
+
+.colcard3 img {
+    width: 100%;
+}
+
+.container1 {
+    /* background-color: red; */
+    width: 90%;
+    margin: 0 auto;
 }
